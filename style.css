@@ -1,27 +1,60 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-    background-color: #f0f2f5;
+/* Navigation styling (already included earlier) */
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-header {
+.nav-list a:hover {
+    color: #00ccff;
+}
+
+/* Main content styling */
+main {
+    padding: 40px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Featured posts / articles styling */
+.post {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.post img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+/* Section headings */
+section h2 {
+    margin-top: 40px;
+    color: #333;
+    border-bottom: 2px solid #00ccff;
+    padding-bottom: 5px;
+}
+
+/* Footer styling */
+footer {
     background-color: #1a1a1a;
     color: white;
     padding: 20px 40px;
+    text-align: center;
+    margin-top: 40px;
 }
 
-h1, h2, h3 {
-    margin: 0 0 10px 0;
+/* Intro section */
+.intro {
+    background-color: #e0f7ff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
 }
-
-.nav-list {
-    list-style: none;
-    padding: 0;
-    margin: 10px 0 0 0;
-    display: flex;
-}
-
-.nav-list li {
-    margin
