@@ -1,60 +1,73 @@
-/* Navigation styling (already included earlier) */
-.nav-list a {
+/* Reset basic spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #1a1a1a;
     color: white;
+    padding: 30px 40px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navigation */
+nav {
+    margin-top: 15px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-list li {
+    display: inline;
+}
+
+.nav-list a {
     text-decoration: none;
+    color: white;
     font-weight: bold;
 }
 
 .nav-list a:hover {
-    color: #00ccff;
+    text-decoration: underline;
 }
 
-/* Main content styling */
+/* Main content */
 main {
     padding: 40px;
-    max-width: 1000px;
-    margin: auto;
 }
 
-/* Featured posts / articles styling */
-.post {
+/* Section cards */
+.section {
     background-color: white;
-    padding: 20px;
-    margin-bottom: 20px;
+    padding: 25px;
+    margin-bottom: 25px;
     border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-.post img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 4px;
-}
-
-/* Section headings */
-section h2 {
-    margin-top: 40px;
-    color: #333;
-    border-bottom: 2px solid #00ccff;
-    padding-bottom: 5px;
-}
-
-/* Footer styling */
+/* Footer */
 footer {
+    text-align: center;
+    padding: 20px;
     background-color: #1a1a1a;
     color: white;
-    padding: 20px 40px;
-    text-align: center;
     margin-top: 40px;
-}
-
-/* Intro section */
-.intro {
-    background-color: #e0f7ff;
-    padding: 20px;
-    border-radius: 8px;
-    margin-bottom: 30px;
 }
