@@ -1,11 +1,11 @@
-/* Reset basic spacing */
+/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body styling */
+/* Body */
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
@@ -13,26 +13,38 @@ body {
     color: #333;
 }
 
-/* Header */
+/* Header with Background Image */
 header {
-    background-color: #1a1a1a;
+    background-image: url("image0.png");
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: white;
-    padding: 30px 40px;
+    text-align: center;
 }
 
+/* Title overlay */
 header h1 {
-    margin: 0;
+    font-size: 48px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px 25px;
+    border-radius: 8px;
+    margin-bottom: 15px;
 }
 
 /* Navigation */
 nav {
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .nav-list {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 25px;
 }
 
 .nav-list li {
@@ -43,15 +55,20 @@ nav {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 8px 14px;
+    border-radius: 6px;
 }
 
 .nav-list a:hover {
-    text-decoration: underline;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Main content */
-main {
-    padding: 40px;
+/* Main content container */
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
 }
 
 /* Section cards */
@@ -70,8 +87,4 @@ footer {
     background-color: #1a1a1a;
     color: white;
     margin-top: 40px;
-}
-.container {
-    max-width: 1000px;
-    margin: 0 auto;
 }
