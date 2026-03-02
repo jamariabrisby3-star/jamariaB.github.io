@@ -16,10 +16,11 @@ body {
 /* Header with Background Image */
 header {
     background-image: url("image0.png");
-    background-size: cover;
-    background-position: center top;
+    background-size: contain;   /* key change */
+    background-position: center;
     background-repeat: no-repeat;
-    height: 300px;
+    background-color: #000;     /* fills empty space */
+    height: 280px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -30,9 +31,9 @@ header {
 
 /* Title overlay */
 header h1 {
-    font-size: 42px;
+    font-size: 38px;
     background-color: rgba(0, 0, 0, 0.6);
-    padding: 15px 25px;
+    padding: 12px 20px;
     border-radius: 8px;
     margin-bottom: 15px;
 }
