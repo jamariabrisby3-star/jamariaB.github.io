@@ -17,8 +17,9 @@ body {
 header {
     background-image: url("image0.png");
     background-size: cover;
-    background-position: center;
-    height: 350px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,7 +30,7 @@ header {
 
 /* Title overlay */
 header h1 {
-    font-size: 48px;
+    font-size: 42px;
     background-color: rgba(0, 0, 0, 0.6);
     padding: 15px 25px;
     border-radius: 8px;
@@ -88,3 +89,4 @@ footer {
     color: white;
     margin-top: 40px;
 }
+
