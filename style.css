@@ -13,14 +13,14 @@ body {
     color: #333;
 }
 
-/* Header with Background Image */
+/* Header - Full Image Visible (No Cropping) */
 header {
     background-image: url("image0.png");
-    background-size: contain;   /* key change */
-    background-position: center;
+    background-size: contain;       /* Shows full image */
+    background-position: center;    
     background-repeat: no-repeat;
-    background-color: #000;     /* fills empty space */
-    height: 280px;
+    background-color: #000;         /* Fills empty space */
+    height: 260px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,24 +29,20 @@ header {
     text-align: center;
 }
 
-/* Title overlay */
+/* Title */
 header h1 {
-    font-size: 38px;
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 12px 20px;
-    border-radius: 8px;
-    margin-bottom: 15px;
+    font-size: 36px;
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-bottom: 10px;
 }
 
 /* Navigation */
-nav {
-    margin-top: 10px;
-}
-
 .nav-list {
     list-style: none;
     display: flex;
-    gap: 25px;
+    gap: 20px;
 }
 
 .nav-list li {
@@ -57,23 +53,23 @@ nav {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 8px 14px;
-    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 6px 12px;
+    border-radius: 5px;
 }
 
 .nav-list a:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Main content container */
+/* Content container */
 .container {
     max-width: 1000px;
     margin: 40px auto;
     padding: 0 20px;
 }
 
-/* Section cards */
+/* Sections */
 .section {
     background-color: white;
     padding: 25px;
@@ -90,4 +86,3 @@ footer {
     color: white;
     margin-top: 40px;
 }
-
