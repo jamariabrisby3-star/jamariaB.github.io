@@ -54,3 +54,19 @@ footer {
   color: #fff;
   margin-top: 40px;
 }
+/* Newsletter images container */
+.newsletter-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.newsletter-images img {
+  max-width: 300px;
+  height: auto;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
